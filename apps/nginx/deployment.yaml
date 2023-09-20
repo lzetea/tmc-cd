@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx
+          image: harbor-repo.vmware.com/dockerhub-proxy-cache/nginxdemos/hello
           resources:
             limits:
               memory: "128Mi"
